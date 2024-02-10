@@ -9,7 +9,7 @@ class BurpExtender(IBurpExtender, IHttpListener):
         self.callbacks = callbacks
         self.helpers = callbacks.getHelpers()
         self.callbacks.setExtensionName("SoundAlertExtension")
-        self.sound_alert_string = '"availableOperations":[{"id":'
+        self.sound_alert_string = 'Your_String'
 
         # Register the listener
         callbacks.registerHttpListener(self)
